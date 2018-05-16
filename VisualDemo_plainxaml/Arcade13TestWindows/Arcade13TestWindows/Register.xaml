@@ -220,7 +220,7 @@
                 </Viewbox>
                 <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="0" Orientation="Vertical">
                     <Border Style="{StaticResource BigButtonBorderStyle}">
-                        <Button x:Name="Submit" Style="{StaticResource BigButtonStyle}" Click="Submit_Click">Creat Account</Button>
+                        <Button x:Name="Submit" Style="{StaticResource BigButtonStyle}" Click="Submit_Click">Create Account</Button>
                     </Border>
                 </StackPanel>
                 <!--Game Main-->

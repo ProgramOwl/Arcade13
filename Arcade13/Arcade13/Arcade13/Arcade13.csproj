@@ -56,6 +56,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Models\Board.cs" />
+    <Compile Include="Models\BasePlayer.cs" />
+    <Compile Include="Models\CPUPlayer.cs" />
+    <Compile Include="Models\HumanPlayer.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -91,7 +96,11 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2"/>
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Games\TicTacToe\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
