@@ -12,7 +12,16 @@ using Android.Widget;
 
 namespace Arcade13.Models
 {
-    public class HumanPlayer
+    public class HumanPlayer : BasePlayer
     {
+        public string Name;
+
+        public int Wins { get; private set; }
+
+        public int Losses { get; private set; }
+        public override void Turn()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

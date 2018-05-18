@@ -14,7 +14,6 @@ namespace Arcade13.Models
 {
     public abstract class BasePlayer
     {
-
         public abstract void Turn(); 
     }
 }
