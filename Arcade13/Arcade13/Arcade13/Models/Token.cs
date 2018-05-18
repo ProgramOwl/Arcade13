@@ -12,7 +12,13 @@ using Android.Widget;
 
 namespace Arcade13.Models
 {
-    class Token
+    public class Token
     {
+        public BasePlayer Owner { get; private set; }
+        
+        public Token(BasePlayer owner)
+        {
+            Owner = owner;
+        }
     }
 }

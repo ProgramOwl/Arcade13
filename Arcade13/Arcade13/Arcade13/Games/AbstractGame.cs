@@ -35,14 +35,11 @@ namespace Arcade13.Games
 
         private BasePlayer[] Players { get; set; }
 
-        private Token[] Tokens { get; set; }
-
         private Board GameBoard;
 
-        public AbstractGame(BasePlayer[] players, Token[] tokens)
+        public AbstractGame(BasePlayer[] players)
         {
             Players = players;
-            Tokens = tokens;
             //Name and Rules are Hardcoded or grabbed from file if so wished here or from another method called in here
             //Board is also defined here but may not need to be passed in
         }
