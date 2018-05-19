@@ -56,9 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Games\AbstractGame.cs" />
+    <Compile Include="Games\TicTacToe\TicTacToe.cs" />
+    <Compile Include="Games\TicTacToe\TTTBoard.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Board.cs" />
     <Compile Include="Models\BasePlayer.cs" />
+    <Compile Include="Models\Cell.cs" />
     <Compile Include="Models\CPUPlayer.cs" />
     <Compile Include="Models\HumanPlayer.cs" />
     <Compile Include="Models\Token.cs" />
@@ -100,7 +103,6 @@
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Games\TicTacToe\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

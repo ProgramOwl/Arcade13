@@ -14,5 +14,11 @@ namespace Arcade13.Models
 {
     public abstract class Board
     {
+        public Token[] PlayerTokens;
+
+        public Board(Token[] tokens)
+        {
+            PlayerTokens = tokens;
+        }
     }
 }
