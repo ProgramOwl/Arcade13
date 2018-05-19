@@ -11,22 +11,15 @@ using Android.Views;
 using Android.Widget;
 using Arcade13.Models;
 
+//NOAH look at this in more detail later ~Noah
+
 namespace Arcade13.Games.TicTacToe
 {
-    class TicTacToe : AbstractGame
+    class TicTacToe : Game
     {
-        public TicTacToe(BasePlayer[] players) : base(players) { }
-        public override void CPUTurn()
-        {
-            throw new NotImplementedException();
-        }
+        public TicTacToe(Player[] players) : base(players) { }
 
         public override EndPlayerState EndGame()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override void HumanTurn()
         {
             throw new NotImplementedException();
         }
@@ -37,13 +30,13 @@ namespace Arcade13.Games.TicTacToe
 
             while (EndGame() == EndPlayerState.CONTINUING)
             {
-                HumanTurn();
+                //HumanTurn();
                 state = EndGame();
                 if (EndGame() != EndPlayerState.CONTINUING)
                 {
                     break;
                 }
-                CPUTurn();
+                //CPUTurn();
                 state = EndGame();
             }
             return state;

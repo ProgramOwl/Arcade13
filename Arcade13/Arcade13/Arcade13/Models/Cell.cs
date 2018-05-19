@@ -18,7 +18,6 @@ namespace Arcade13.Models
     class Cell
     {
         bool Occupied;
-
         public Token token;
 
         public Cell()
@@ -27,7 +26,7 @@ namespace Arcade13.Models
             bool Occupied = false;
         }
 
-        public BasePlayer OccupyingPlayer()
+        public Player OccupyingPlayer()
         {
             return token.Owner;
         }

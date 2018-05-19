@@ -12,10 +12,11 @@ using Android.Widget;
 
 namespace Arcade13.Models
 {
-    public abstract class BasePlayer
+    public class Player
     {
-        public abstract void Turn();
-
+        public bool IsHuman { get; private set; }
+        public Token Token { get; private set; }  
+        
         public override bool Equals(object obj)
         {
             
@@ -32,6 +33,10 @@ namespace Arcade13.Models
                 return false;
             }
 
+        }
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }

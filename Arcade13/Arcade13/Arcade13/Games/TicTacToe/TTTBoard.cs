@@ -11,9 +11,13 @@ using Android.Views;
 using Android.Widget;
 using Arcade13.Models;
 
+
+//NOAH look at this in more detail later ~Noah
+
 namespace Arcade13.Games.TicTacToe
 {
     //the grid starts from the top left like a monitor's coordinate system
+    
     class TTTBoard : Board
     {
         Cell[,] grid;
@@ -22,12 +26,18 @@ namespace Arcade13.Games.TicTacToe
             grid = new Cell[3, 3];
         }
 
-        public void setCellOwner(BasePlayer p, int x, int y)
+        //Flush out
+        public override void ClearBoard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void setCellOwner(Player p, int x, int y)
         {
             grid[x, y].token = getOwned(p);
         }
 
-        private Token getOwned(BasePlayer p)
+        private Token getOwned(Player p)
         {
             foreach(Token t in PlayerTokens)
             {
