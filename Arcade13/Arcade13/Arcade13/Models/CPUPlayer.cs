@@ -11,7 +11,11 @@ using Android.Widget;
 
 namespace Arcade13.Models
 {
-    public class CPUPlayer
+    public class CPUPlayer : BasePlayer
     {
+        public override void Turn()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
