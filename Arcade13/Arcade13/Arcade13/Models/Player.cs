@@ -20,18 +20,18 @@ namespace Arcade13.Models
         public override bool Equals(object obj)
         {
             
-            if(this.GetType() == typeof(CPUPlayer) && obj.GetType() == typeof(HumanPlayer))
-            {
-                return ((HumanPlayer)this).Equals(obj);
-            }
-            else if(this.GetType() == typeof(CPUPlayer) && obj.GetType() == typeof(CPUPlayer))
-            {
-                return ((CPUPlayer)this).Equals(obj);
-            }
-            else
-            {
+            //if(this.GetType() == typeof(CPUPlayer) && obj.GetType() == typeof(HumanPlayer))
+            //{
+            //    return ((HumanPlayer)this).Equals(obj);
+            //}
+            //else if(this.GetType() == typeof(CPUPlayer) && obj.GetType() == typeof(CPUPlayer))
+            //{
+            //    return ((CPUPlayer)this).Equals(obj);
+            //}
+            //else
+            //{
                 return false;
-            }
+            //}
 
         }
         public override int GetHashCode()
