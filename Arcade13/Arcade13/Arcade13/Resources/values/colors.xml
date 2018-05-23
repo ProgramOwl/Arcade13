@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2c3e50</color>
-    <color name="colorPrimaryDark">#1B3147</color>
-    <color name="colorAccent">#3498db</color>
+    <color name="colorBlue">#AED6F1</color>
+    <color name="colorOrange">#F39C12</color>
+    <color name="colorGray1">#d0d3d4</color>
+    <color name="colorGray2">#bdc3c7</color>
+    <color name="colorGraydk1">#909497</color>
+    <color name="colorGraydk2">#626567</color>
+    <color name="colorGreen">#2ecc71</color>
+    <color name="colorYellow">#fff700</color>
+  
+  <shape name="btn_edge" xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:startColor="#FFFFFF" android:endColor="#00FF00" android:angle="270" />
+    <corners android:radius="3dp" />
+    <stroke android:width="5px" android:color="#000000" />
+  </shape>
 </resources>
+
+
