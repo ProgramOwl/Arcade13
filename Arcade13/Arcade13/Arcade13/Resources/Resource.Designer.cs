@@ -2342,6 +2342,9 @@ namespace Arcade13
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
+			// aapt resource value: 0x7f080090
+			public const int SignIn = 2131230864;
+			
 			// aapt resource value: 0x7f0800a3
 			public const int action0 = 2131230883;
 			
@@ -2428,9 +2431,6 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
-			
-			// aapt resource value: 0x7f080090
-			public const int button1 = 2131230864;
 			
 			// aapt resource value: 0x7f080091
 			public const int button2 = 2131230865;
