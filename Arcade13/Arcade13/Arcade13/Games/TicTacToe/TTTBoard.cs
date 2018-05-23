@@ -21,7 +21,7 @@ namespace Arcade13.Games.TicTacToe
     class TTTBoard : Board
     {
         Cell[,] grid;
-        public TTTBoard(Token[] t):base(t)
+        public TTTBoard(Token[] t)
         {
             grid = new Cell[3, 3];
         }
