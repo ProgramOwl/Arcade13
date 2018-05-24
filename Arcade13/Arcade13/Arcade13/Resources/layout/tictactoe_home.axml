@@ -52,14 +52,9 @@
             android:minWidth="500px"
             android:maxWidth="500px"
             android:width="500px"
-            android:layout_marginBottom="1.0dp"
-            android:layout_centerInParent="false"
-            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerInParent="true"
             android:layout_centerVertical="false"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentStart="false"
-            android:layout_alignParentTop="true"
-            android:inputType="none" />
+            android:layout_centerHorizontal="true" />
         <EditText
             android:inputType="textPassword"
             android:layout_height="wrap_content"
@@ -79,14 +74,18 @@
             android:maxWidth="500px"
             android:width="500px"
             android:layout_width="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_marginBottom="1.0dp"
+            android:layout_centerInParent="false"
+            android:layout_alignWithParentIfMissing="false"
             android:layout_centerVertical="false"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true" />
         <Button
             android:text="Sign in"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/SignIn"
+            android:id="@+id/button1"
             android:textColor="#ffffffff"
             android:textAllCaps="false"
             android:textSize="25dp"

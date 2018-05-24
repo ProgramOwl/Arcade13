@@ -15,7 +15,7 @@ namespace Arcade13.Models
     public class Token
     {
         public Player Owner { get; private set; }
-        
+
         public Token(Player owner)
         {
             Owner = owner;
