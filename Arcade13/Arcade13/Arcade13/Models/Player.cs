@@ -15,11 +15,11 @@ namespace Arcade13.Models
     public class Player
     {
         public bool IsHuman { get; private set; }
-        public Token Token { get; private set; }  
-        
+        public Token Token { get; private set; }
+
         public override bool Equals(object obj)
         {
-            
+
             //if(this.GetType() == typeof(CPUPlayer) && obj.GetType() == typeof(HumanPlayer))
             //{
             //    return ((HumanPlayer)this).Equals(obj);
@@ -30,7 +30,7 @@ namespace Arcade13.Models
             //}
             //else
             //{
-                return false;
+            return false;
             //}
 
         }
