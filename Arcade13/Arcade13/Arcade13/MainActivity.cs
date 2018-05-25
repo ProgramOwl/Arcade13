@@ -11,7 +11,6 @@ namespace Arcade13
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -49,7 +48,7 @@ namespace Arcade13
                 cmd.Dispose();
                 cnn.Close();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Toast.MakeText(ApplicationContext, "Something went wrong", ToastLength.Long).Show();
             }

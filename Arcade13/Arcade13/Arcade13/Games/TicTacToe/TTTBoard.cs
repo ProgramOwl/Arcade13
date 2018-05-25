@@ -17,13 +17,13 @@ using Arcade13.Models;
 namespace Arcade13.Games.TicTacToe
 {
     //the grid starts from the top left like a monitor's coordinate system
-
+    
     class TTTBoard : Board
     {
-        Cell[,] Grid { get; set; }
+        Cell[,] grid;
         public TTTBoard(Token[] t)
         {
-            Grid = new Cell[3, 3];
+            grid = new Cell[3, 3];
         }
 
         //Flush out
@@ -32,14 +32,14 @@ namespace Arcade13.Games.TicTacToe
             throw new NotImplementedException();
         }
 
-        public void SetCellOwner(Player p, int x, int y)
+        public void setCellOwner(Player p, int x, int y)
         {
-            Grid[x, y].token = GetOwned(p);
+            grid[x, y].token = getOwned(p);
         }
 
-        private Token GetOwned(Player p)
+        private Token getOwned(Player p)
         {
-            foreach (Token t in PlayerTokens)
+            foreach(Token t in PlayerTokens)
             {
                 if (t.Owner.Equals(p))
                 {

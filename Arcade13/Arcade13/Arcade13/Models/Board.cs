@@ -19,7 +19,7 @@ namespace Arcade13.Models
 
         public Board()
         {
-            PlayerTokens = new Token[BOARD_SIZE, BOARD_SIZE];
+            PlayerTokens = new Token[BOARD_SIZE,BOARD_SIZE];
         }
         public abstract void ClearBoard();
     }
