@@ -1186,7 +1186,6 @@ namespace Arcade13
 		
 		public partial class Color
 		{
-			
 			// aapt resource value: 0x7f0c0053
 			public const int abc_background_cache_hint_selector_material_dark = 2131492947;
 			
@@ -1211,6 +1210,7 @@ namespace Arcade13
 			// aapt resource value: 0x7f0c0000
 			public const int abc_input_method_navigation_guard = 2131492864;
 			
+
 			// aapt resource value: 0x7f0c005a
 			public const int abc_primary_text_disable_only_material_dark = 2131492954;
 			
@@ -1235,6 +1235,7 @@ namespace Arcade13
 			// aapt resource value: 0x7f0c0003
 			public const int abc_search_url_text_selected = 2131492867;
 			
+
 			// aapt resource value: 0x7f0c005f
 			public const int abc_secondary_text_material_dark = 2131492959;
 			
@@ -1301,8 +1302,11 @@ namespace Arcade13
 			// aapt resource value: 0x7f0c0011
 			public const int button_material_light = 2131492881;
 			
+			// aapt resource value: 0x7f0c0047
+			public const int colorBlue = 2131492935;
+			
 			// aapt resource value: 0x7f0c0049
-			public const int colorAccent = 2131492937;
+			public const int colorGray1 = 2131492937;
 			
 			// aapt resource value: 0x7f0c004a
 			public const int colorBlue = 2131492938;
@@ -1329,14 +1333,17 @@ namespace Arcade13
 			public const int colorPrimary = 2131492935;
 			
 			// aapt resource value: 0x7f0c0048
-			public const int colorPrimaryDark = 2131492936;
+			public const int colorOrange = 2131492936;
+			
+			// aapt resource value: 0x7f0c004e
+			public const int colorYellow = 2131492942;
 			
 			// aapt resource value: 0x7f0c0051
 			public const int colorYellow = 2131492945;
 			
 			// aapt resource value: 0x7f0c003c
-			public const int design_bottom_navigation_shadow_color = 2131492924;
-			
+			public const int design_bottom_navigation_shadow_color = 2131492924;		
+
 			// aapt resource value: 0x7f0c0067
 			public const int design_error = 2131492967;
 			
@@ -1364,6 +1371,7 @@ namespace Arcade13
 			// aapt resource value: 0x7f0c0044
 			public const int design_snackbar_background_color = 2131492932;
 			
+
 			// aapt resource value: 0x7f0c0068
 			public const int design_tint_password_toggle = 2131492968;
 			
@@ -1392,8 +1400,8 @@ namespace Arcade13
 			public const int highlighted_text_material_dark = 2131492889;
 			
 			// aapt resource value: 0x7f0c001a
-			public const int highlighted_text_material_light = 2131492890;
-			
+			public const int highlighted_text_material_light = 2131492890;			
+
 			// aapt resource value: 0x7f0c0052
 			public const int ic_launcher_background = 2131492946;
 			
@@ -1490,6 +1498,7 @@ namespace Arcade13
 			// aapt resource value: 0x7f0c0036
 			public const int switch_thumb_disabled_material_light = 2131492918;
 			
+
 			// aapt resource value: 0x7f0c0069
 			public const int switch_thumb_material_dark = 2131492969;
 			
@@ -2315,6 +2324,7 @@ namespace Arcade13
 			public const int notification_bg_low = 2130837602;
 			
 			// aapt resource value: 0x7f020063
+
 			public const int notification_bg_low_normal = 2130837603;
 			
 			// aapt resource value: 0x7f020064
@@ -2324,6 +2334,7 @@ namespace Arcade13
 			public const int notification_bg_normal = 2130837605;
 			
 			// aapt resource value: 0x7f020066
+
 			public const int notification_bg_normal_pressed = 2130837606;
 			
 			// aapt resource value: 0x7f020067
@@ -2384,6 +2395,7 @@ namespace Arcade13
 			// aapt resource value: 0x7f080090
 			public const int SignIn = 2131230864;
 			
+
 			// aapt resource value: 0x7f0800a6
 			public const int action0 = 2131230886;
 			
@@ -2408,6 +2420,7 @@ namespace Arcade13
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
+
 			// aapt resource value: 0x7f0800a3
 			public const int action_container = 2131230883;
 			
@@ -2497,7 +2510,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f0800af
 			public const int chronometer = 2131230895;
-			
+
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
 			
@@ -2596,7 +2609,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f0800b6
 			public const int gridLayout1 = 2131230902;
-			
+
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
@@ -2648,14 +2661,14 @@ namespace Arcade13
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int masked = 2131230905;
+			// aapt resource value: 0x7f0800b6
+			public const int masked = 2131230902;
 			
 			// aapt resource value: 0x7f0800a9
 			public const int media_actions = 2131230889;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int message = 2131230903;
+			// aapt resource value: 0x7f0800b4
+			public const int message = 2131230900;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2821,7 +2834,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
-			
+
 			// aapt resource value: 0x7f0800a8
 			public const int status_bar_latest_event_content = 2131230888;
 			
@@ -2866,7 +2879,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f0800ae
 			public const int time = 2131230894;
-			
+
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
 			
@@ -2912,8 +2925,8 @@ namespace Arcade13
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int visible = 2131230904;
+			// aapt resource value: 0x7f0800b5
+			public const int visible = 2131230901;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3101,76 +3114,64 @@ namespace Arcade13
 			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int game_selection = 2130968617;
+			public const int notification_action = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action = 2130968618;
+			public const int notification_action_tombstone = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_action_tombstone = 2130968619;
+			public const int notification_media_action = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_action = 2130968620;
+			public const int notification_media_cancel_action = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_media_cancel_action = 2130968621;
+			public const int notification_template_big_media = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media = 2130968622;
+			public const int notification_template_big_media_custom = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_custom = 2130968623;
+			public const int notification_template_big_media_narrow = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow = 2130968624;
+			public const int notification_template_big_media_narrow_custom = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_big_media_narrow_custom = 2130968625;
+			public const int notification_template_custom_big = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_custom_big = 2130968626;
+			public const int notification_template_icon_group = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_icon_group = 2130968627;
+			public const int notification_template_lines_media = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_lines_media = 2130968628;
+			public const int notification_template_media = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media = 2130968629;
+			public const int notification_template_media_custom = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_media_custom = 2130968630;
+			public const int notification_template_part_chronometer = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_chronometer = 2130968631;
+			public const int notification_template_part_time = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_part_time = 2130968632;
+			public const int select_dialog_item_material = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int register = 2130968633;
+			public const int select_dialog_multichoice_material = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_item_material = 2130968634;
+			public const int select_dialog_singlechoice_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int select_dialog_multichoice_material = 2130968635;
+			public const int support_simple_spinner_dropdown_item = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int select_dialog_singlechoice_material = 2130968636;
-			
-			// aapt resource value: 0x7f04003d
-			public const int support_simple_spinner_dropdown_item = 2130968637;
-			
-			// aapt resource value: 0x7f04003e
-			public const int tictactoe_game = 2130968638;
-			
-			// aapt resource value: 0x7f04003f
-			public const int tictactoe_home = 2130968639;
-			
-			// aapt resource value: 0x7f040040
-			public const int tooltip = 2130968640;
+			public const int tooltip = 2130968636;
 			
 			static Layout()
 			{

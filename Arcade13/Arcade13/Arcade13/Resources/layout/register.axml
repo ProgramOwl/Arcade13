@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/colorBlue"
     android:clickable="true">
     <GridLayout
         android:minWidth="25px"
@@ -21,6 +22,7 @@
             android:layout_width="wrap_content"
             android:maxWidth="500px"
             android:minWidth="250px"
+            android:src="@android:drawable/Images/Arc13Logo"
             android:layout_marginBottom="111.7dp" />
     </GridLayout>
 </RelativeLayout>

@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:id="@+id/textView1"
+        android:textColor="@color/colorOrange"
         android:textAllCaps="true"
         android:textColor="@color/colorOrange"
         android:textIsSelectable="false"
@@ -66,6 +67,7 @@
         <EditText
             android:inputType="textPassword"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
             android:id="@+id/editText1"
             android:autoLink="all"
             android:allowUndo="true"
@@ -81,7 +83,6 @@
             android:minWidth="500px"
             android:maxWidth="500px"
             android:width="500px"
-            android:layout_width="wrap_content"
             android:layout_centerInParent="true"
             android:layout_centerVertical="false"
             android:layout_centerHorizontal="true" />
@@ -94,11 +95,13 @@
             android:textColor="#ffffffff"
             android:textAllCaps="false"
             android:textSize="25dp"
+            android:background="@drawable/shape"
             android:fadingEdge="none"
             android:requiresFadingEdge="none"
             android:outlineProvider="none"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true" />
+    <!--Background for the above button was altered because the original setting kept causing errors-->
     </RelativeLayout>
     <Button
         android:text="New User"
@@ -112,7 +115,8 @@
         android:layout_height="wrap_content"
         android:background="@color/colorGraydk2"
         android:layout_alignParentBottom="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:background="@color/colorGraydk2" />
     <ImageView
         android:src="#ff005722"
         android:layout_width="fill_parent"
