@@ -3172,9 +3172,6 @@ namespace Arcade13
 			// aapt resource value: 0x7f040040
 			public const int tooltip = 2130968640;
 			
-			// aapt resource value: 0x7f04003d
-			public const int TTTView = 2130968637;
-			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
