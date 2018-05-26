@@ -29,6 +29,10 @@ namespace Arcade13.Games
         private Board GameBoard;
         private int TurnCounter = 0;
 
+        public Game()
+        {
+
+        }
         public Game(Player[] players)
         {
             this.Players = players;

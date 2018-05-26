@@ -18,6 +18,10 @@ namespace Arcade13.Games.TicTacToe
     [Activity(Label = "TicTacToe")]
     class TicTacToe : Game
     {
+        public TicTacToe()
+        {
+
+        }
         public TicTacToe(Player[] players) : base(players) { }
 
         public override EndPlayerState EndGame()
