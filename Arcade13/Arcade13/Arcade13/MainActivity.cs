@@ -16,12 +16,12 @@ namespace Arcade13
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.game_selection);
 
 
-            Button signIn = FindViewById<Button>(Resource.Id.SignIn);
+            //Button signIn = FindViewById<Button>(Resource.Id.SignIn);
 
-            signIn.Click += Connect;
+            //signIn.Click += Connect;
         }
 
         public void MakeText(string text)
