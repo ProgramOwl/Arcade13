@@ -21,7 +21,7 @@ namespace Arcade13.Games
         CONTINUING
     }
 
-    abstract class Game
+    abstract class Game : Activity
     {
         public EndPlayerState EndState { get; private set; }
 

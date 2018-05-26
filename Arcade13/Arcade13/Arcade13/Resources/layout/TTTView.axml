@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/Show">
+    <GridLayout
+        android:layout_x="50"
+        android:layout_y="150"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:id="@+id/gridLayout1"
+        android:rowCount="3"
+        android:columnCount="3">
+        <Button
+            android:text="Button"
+            android:id="@+id/A1"
+            android:background="#600" />
+        <Button
+            android:text="Button"
+            android:id="@+id/A2"
+            android:background="#B00" />
+        <Button
+            android:text="Button"
+            android:id="@+id/A3"
+            android:background="#F00" />
+        <Button
+            android:text="Button"
+            android:id="@+id/B1"
+            android:background="#060" />
+        <Button
+            android:text="Button"
+            android:id="@+id/B2"
+            android:background="#0B0" />
+        <Button
+            android:text="Button"
+            android:id="@+id/B3"
+            android:background="#0F0" />
+        <Button
+            android:text="Button"
+            android:id="@+id/C1"
+            android:background="#006" />
+        <Button
+            android:text="Button"
+            android:id="@+id/C2"
+            android:background="#00B" />
+        <Button
+            android:text="Button"
+            android:id="@+id/C3"
+            android:background="#00F" />
+    </GridLayout>
+    <AbsoluteLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250"
+        android:layout_x="0"
+        android:layout_y="750"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/Tell" />
+</AbsoluteLayout>
