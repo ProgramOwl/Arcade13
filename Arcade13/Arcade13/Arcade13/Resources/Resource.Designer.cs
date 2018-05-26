@@ -3164,13 +3164,10 @@ namespace Arcade13
 			public const int support_simple_spinner_dropdown_item = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int tictactoe_game = 2130968638;
+			public const int tictactoe_home = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int tictactoe_home = 2130968639;
-			
-			// aapt resource value: 0x7f040040
-			public const int tooltip = 2130968640;
+			public const int tooltip = 2130968639;
 			
 			static Layout()
 			{
