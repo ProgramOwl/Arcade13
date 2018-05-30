@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px"
-    android:background="@color/colorBlue"
     android:id="@+id/Show">
     <GridLayout
         android:layout_x="50"

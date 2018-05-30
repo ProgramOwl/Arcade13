@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlue"
-    android:clickable="true">
+    android:clickable="true"
+    android:background="@color/colorBlue">
     <TextView
         android:text="Arcade"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -66,6 +66,7 @@
         <EditText
             android:inputType="textPassword"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
             android:id="@+id/editText1"
             android:autoLink="all"
             android:allowUndo="true"
@@ -81,7 +82,6 @@
             android:minWidth="500px"
             android:maxWidth="500px"
             android:width="500px"
-            android:layout_width="wrap_content"
             android:layout_centerInParent="true"
             android:layout_centerVertical="false"
             android:layout_centerHorizontal="true" />
@@ -89,16 +89,17 @@
             android:text="Sign in"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:background="#00000000"
             android:id="@+id/SignIn"
             android:textColor="#ffffffff"
             android:textAllCaps="false"
             android:textSize="25dp"
-            android:background="@btn_border/xt"
             android:fadingEdge="none"
             android:requiresFadingEdge="none"
             android:outlineProvider="none"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true" />
+    <!--Background for the above button was altered because the original setting kept causing errors-->
     </RelativeLayout>
     <Button
         android:text="New User"
@@ -110,13 +111,25 @@
         android:fadingEdge="none"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/shape"
         android:layout_alignParentBottom="true"
-        android:clickable="true"
-        android:background="@color/colorGraydk2" />
+        android:clickable="true" />
     <ImageView
         android:src="#ff005722"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView1"
         android:id="@+id/imageView1" />
+    <ImageButton
+        android:src="@drawable/Arc13Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout1"
+        android:id="@+id/imageButton1"
+        android:background="#ffffc400"
+        android:maxWidth="300px"
+        android:maxHeight="300px"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>

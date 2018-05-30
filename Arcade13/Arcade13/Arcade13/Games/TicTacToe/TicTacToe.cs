@@ -13,17 +13,27 @@ using Arcade13.Models;
 
 //NOAH look at this in more detail later ~Noah
 
-namespace Arcade13.Games.TicTacToe
+namespace Arcade13.Games.TicTacToe 
 {
+    [Activity(Label = "TicTacToe")]
     class TicTacToe : Game
     {
+        public TicTacToe()
+        {
+
+        }
         public TicTacToe(Player[] players) : base(players) { }
 
         public override EndPlayerState EndGame()
         {
             throw new NotImplementedException();
         }
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            Play();
 
+        }
         public override EndPlayerState Play()
         {
             EndPlayerState state = EndPlayerState.CONTINUING;

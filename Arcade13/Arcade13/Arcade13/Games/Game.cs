@@ -21,7 +21,7 @@ namespace Arcade13.Games
         CONTINUING
     }
 
-    abstract class Game
+    abstract class Game : Activity
     {
         public EndPlayerState EndState { get; private set; }
 
@@ -29,6 +29,10 @@ namespace Arcade13.Games
         private Board GameBoard;
         private int TurnCounter = 0;
 
+        public Game()
+        {
+
+        }
         public Game(Player[] players)
         {
             this.Players = players;
