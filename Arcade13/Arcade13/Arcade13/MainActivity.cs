@@ -48,7 +48,7 @@ namespace Arcade13
                 cmd.Dispose();
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Toast.MakeText(ApplicationContext, "Something went wrong", ToastLength.Long).Show();
             }
