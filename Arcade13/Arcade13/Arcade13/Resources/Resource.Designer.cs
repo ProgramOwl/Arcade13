@@ -2369,35 +2369,35 @@ namespace Arcade13
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0800b8
-			public const int A1 = 2131230904;
+			// aapt resource value: 0x7f0800c5
+			public const int A1 = 2131230917;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int A2 = 2131230905;
+			// aapt resource value: 0x7f0800c6
+			public const int A2 = 2131230918;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int A3 = 2131230906;
+			// aapt resource value: 0x7f0800c7
+			public const int A3 = 2131230919;
 			
 			// aapt resource value: 0x7f080032
 			public const int ALT = 2131230770;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int B1 = 2131230907;
+			// aapt resource value: 0x7f0800c8
+			public const int B1 = 2131230920;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int B2 = 2131230908;
+			// aapt resource value: 0x7f0800c9
+			public const int B2 = 2131230921;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int B3 = 2131230909;
+			// aapt resource value: 0x7f0800ca
+			public const int B3 = 2131230922;
 			
-			// aapt resource value: 0x7f0800be
-			public const int C1 = 2131230910;
+			// aapt resource value: 0x7f0800cb
+			public const int C1 = 2131230923;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int C2 = 2131230911;
+			// aapt resource value: 0x7f0800cc
+			public const int C2 = 2131230924;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int C3 = 2131230912;
+			// aapt resource value: 0x7f0800cd
+			public const int C3 = 2131230925;
 			
 			// aapt resource value: 0x7f080033
 			public const int CTRL = 2131230771;
@@ -2414,8 +2414,14 @@ namespace Arcade13
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
+			// aapt resource value: 0x7f0800c3
+			public const int Show = 2131230915;
+			
 			// aapt resource value: 0x7f080095
 			public const int SignIn = 2131230869;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int Tell = 2131230926;
 			
 			// aapt resource value: 0x7f0800a8
 			public const int action0 = 2131230888;
@@ -2630,6 +2636,9 @@ namespace Arcade13
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
 			
+			// aapt resource value: 0x7f0800c4
+			public const int gridLayout1 = 2131230916;
+			
 			// aapt resource value: 0x7f0800b8
 			public const int header = 2131230904;
 			
@@ -2696,14 +2705,14 @@ namespace Arcade13
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int masked = 2131230917;
+			// aapt resource value: 0x7f0800d1
+			public const int masked = 2131230929;
 			
 			// aapt resource value: 0x7f0800ab
 			public const int media_actions = 2131230891;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int message = 2131230915;
+			// aapt resource value: 0x7f0800cf
+			public const int message = 2131230927;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2981,8 +2990,8 @@ namespace Arcade13
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int visible = 2131230916;
+			// aapt resource value: 0x7f0800d0
+			public const int visible = 2131230928;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3230,7 +3239,10 @@ namespace Arcade13
 			public const int support_simple_spinner_dropdown_item = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int tooltip = 2130968637;
+			public const int tictactoe_game = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int tooltip = 2130968638;
 			
 			static Layout()
 			{
