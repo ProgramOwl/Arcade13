@@ -20,13 +20,26 @@ namespace Arcade13
 
 
             Button signIn = FindViewById<Button>(Resource.Id.SignIn);
-
             signIn.Click += Connect;
+
+            Button signUp = FindViewById<Button>(Resource.Id.newuser);
+            signUp.Click += SignUpButton;
+
         }
 
         public void MakeText(string text)
         {
             Toast.MakeText(ApplicationContext, text, ToastLength.Long).Show();
+        }
+
+        public void SignUpButton(object sender, EventArgs e)
+        {
+            SetContentView(Resource.Layout.register);
+        }
+
+        public void BackButton(object sender, EventArgs e)
+        {
+            SetContentView(Resource.Layout.register);
         }
 
         public void Connect(object sender, EventArgs e)
