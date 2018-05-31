@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape  xmlns:android="http://schemas.android.com/apk/res/android" 
-        xmlns:aapt="http://schemas.android.com/aapt" 
+<shape  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
         android:shape="rectangle">
   <gradient android:startColor="#F39C12" 
             android:endColor="#F39C12"
             android:angle="270" />
   <corners android:radius="0dp" />
-  <stroke android:width="5px" 
+  <stroke android:width="5px"
           android:color="#626567" />
 </shape>
 <!--Moved your shape into its own file because it wanted to fuck up otherwise-->
