@@ -2369,8 +2369,35 @@ namespace Arcade13
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0800b8
+			public const int A1 = 2131230904;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int A2 = 2131230905;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int A3 = 2131230906;
+			
 			// aapt resource value: 0x7f080032
 			public const int ALT = 2131230770;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int B1 = 2131230907;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int B2 = 2131230908;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int B3 = 2131230909;
+			
+			// aapt resource value: 0x7f0800be
+			public const int C1 = 2131230910;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int C2 = 2131230911;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int C3 = 2131230912;
 			
 			// aapt resource value: 0x7f080033
 			public const int CTRL = 2131230771;
