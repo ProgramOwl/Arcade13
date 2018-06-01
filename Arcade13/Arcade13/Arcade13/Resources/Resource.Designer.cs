@@ -2468,6 +2468,9 @@ namespace Arcade13
 			// aapt resource value: 0x7f080044
 			public const int auto = 2131230788;
 			
+			// aapt resource value: 0x7f0800b5
+			public const int backarrow = 2131230901;
+			
 			// aapt resource value: 0x7f08002f
 			public const int beginning = 2131230767;
 			
@@ -2519,8 +2522,8 @@ namespace Arcade13
 			// aapt resource value: 0x7f080096
 			public const int coordinator = 2131230870;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int createaccount = 2131230908;
+			// aapt resource value: 0x7f0800bd
+			public const int createaccount = 2131230909;
 			
 			// aapt resource value: 0x7f08006d
 			public const int custom = 2131230829;
@@ -2552,14 +2555,14 @@ namespace Arcade13
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int editText1 = 2131230905;
-			
 			// aapt resource value: 0x7f0800ba
-			public const int editText2 = 2131230906;
+			public const int editText1 = 2131230906;
 			
 			// aapt resource value: 0x7f0800bb
-			public const int editText3 = 2131230907;
+			public const int editText2 = 2131230907;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int editText3 = 2131230908;
 			
 			// aapt resource value: 0x7f08007e
 			public const int edit_query = 2131230846;
@@ -2627,8 +2630,8 @@ namespace Arcade13
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int imageView1 = 2131230901;
+			// aapt resource value: 0x7f0800b8
+			public const int imageView1 = 2131230904;
 			
 			// aapt resource value: 0x7f0800ae
 			public const int info = 2131230894;
@@ -2657,8 +2660,8 @@ namespace Arcade13
 			// aapt resource value: 0x7f08008e
 			public const int linearLayout2 = 2131230862;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int linearLayout3 = 2131230904;
+			// aapt resource value: 0x7f0800b9
+			public const int linearLayout3 = 2131230905;
 			
 			// aapt resource value: 0x7f08001d
 			public const int listMode = 2131230749;
@@ -2666,14 +2669,14 @@ namespace Arcade13
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int masked = 2131230911;
+			// aapt resource value: 0x7f0800c0
+			public const int masked = 2131230912;
 			
 			// aapt resource value: 0x7f0800a7
 			public const int media_actions = 2131230887;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int message = 2131230909;
+			// aapt resource value: 0x7f0800be
+			public const int message = 2131230910;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2936,8 +2939,8 @@ namespace Arcade13
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800be
-			public const int visible = 2131230910;
+			// aapt resource value: 0x7f0800bf
+			public const int visible = 2131230911;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
