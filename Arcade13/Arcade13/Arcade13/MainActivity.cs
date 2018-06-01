@@ -41,6 +41,22 @@ namespace Arcade13
         {
             SetContentView(Resource.Layout.register);
         }
+        public void HomePage(object sender, EventArgs e)
+        {
+            SetContentView(Resource.Layout.activity_main);
+        }
+        //public void MenuPage(object sender, EventArgs e)
+        //{
+        //    SetContentView(Resource.Layout.game_selection);
+        //}
+        //public void TTTHomePage(object sender, EventArgs e)
+        //{
+        //    SetContentView(Resource.Layout.tictactoe_home);
+        //}
+        //public void TTTGamePage(object sender, EventArgs e)
+        //{
+        //    SetContentView(Resource.Layout.tictactoe_game);
+        //}
 
         public void Connect(object sender, EventArgs e)
         {
