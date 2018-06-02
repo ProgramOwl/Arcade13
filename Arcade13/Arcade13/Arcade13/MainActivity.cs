@@ -16,47 +16,75 @@ namespace Arcade13
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            InitializeHomePage();
+        }
 
+#region InitializePages
+        public void InitializeHomePage()
+        {
+            SetContentView(Resource.Layout.activity_main);
 
             Button signIn = FindViewById<Button>(Resource.Id.SignIn);
             signIn.Click += Connect;
 
             Button signUp = FindViewById<Button>(Resource.Id.newuser);
-            signUp.Click += SignUpButton;
-
+            signUp.Click += CallRegisterPage;
         }
+        public void InitializeRegistrationPage()
+        {
+            SetContentView(Resource.Layout.register);
+            ImageButton backTohome = FindViewById<ImageButton>(Resource.Id.backarrow);
+            backTohome.Click += CallHomePage;
+        }
+        public void InitializeGameSelectionPage()
+        {
+            SetContentView(Resource.Layout.game_selection);
+            //Button gameSelected = FindViewById<Button>(Resource.Id.gameSelected);
+            //gameSelected.Click += CallTTTHomePage;
+        }
+        public void InitializeTTTHomePage()
+        {
+            SetContentView(Resource.Layout.tictactoe_home);
+            //Button backButton = FindViewById<Button>)(Resource.Id.backButton); 
+            //backButton.Click += CallGameSelectionPage;
+            //Button playButton = FindViewById<Button>)(Resource.Id.playButton); 
+            //playButton.Click += CallTTTGamePage;
+        }
+        public void InitializeTTTGamePage()
+        {
+            SetContentView(Resource.Layout.tictactoe_game);
+            //Button backButton = FindViewById<Button>)(Resource.Id.backButton); 
+            //backButton.Click += CallTTTHomePage;
+        }
+#endregion
+        
+#region CallPages
+        public void CallRegisterPage(object sender, EventArgs e)
+        {
+            InitializeRegistrationPage();
+        }
+        public void CallHomePage(object sender, EventArgs e)
+        {
+            InitializeHomePage();
+        }
+        public void CallGameSelectionPage(object sender, EventArgs e)
+        {
+            InitializeGameSelectionPage();
+        }
+        public void CallTTTHomePage(object sender, EventArgs e)
+        {
+            InitializeTTTHomePage();
+        }
+        public void CallTTTGamePage(object sender, EventArgs e)
+        {
+            InitializeTTTGamePage();
+        }
+        #endregion
 
         public void MakeText(string text)
         {
             Toast.MakeText(ApplicationContext, text, ToastLength.Long).Show();
         }
-
-        public void SignUpButton(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.register);
-        }
-
-        public void BackButton(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.register);
-        }
-        public void HomePage(object sender, EventArgs e)
-        {
-            SetContentView(Resource.Layout.activity_main);
-        }
-        //public void MenuPage(object sender, EventArgs e)
-        //{
-        //    SetContentView(Resource.Layout.game_selection);
-        //}
-        //public void TTTHomePage(object sender, EventArgs e)
-        //{
-        //    SetContentView(Resource.Layout.tictactoe_home);
-        //}
-        //public void TTTGamePage(object sender, EventArgs e)
-        //{
-        //    SetContentView(Resource.Layout.tictactoe_game);
-        //}
 
         public void Connect(object sender, EventArgs e)
         {
