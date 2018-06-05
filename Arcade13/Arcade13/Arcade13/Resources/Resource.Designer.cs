@@ -2422,7 +2422,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f080091
 			public const int SignIn = 2131230865;
-
+			
 			// aapt resource value: 0x7f0800cc
 			public const int Tell = 2131230924;
 			
@@ -2449,7 +2449,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
-
+			
 			// aapt resource value: 0x7f0800a9
 			public const int action_container = 2131230889;
 			
@@ -2477,7 +2477,6 @@ namespace Arcade13
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-
 			// aapt resource value: 0x7f0800ab
 			public const int action_text = 2131230891;
 			
@@ -2591,7 +2590,7 @@ namespace Arcade13
 			
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
-		
+			
 			// aapt resource value: 0x7f0800bd
 			public const int editText1 = 2131230909;
 			

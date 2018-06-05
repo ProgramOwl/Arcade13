@@ -140,16 +140,7 @@
     <AndroidResource Include="Resources\drawable\logoshape.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logoshape.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\tictactoe_home.axml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\tictactoe_game.axml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\game_selection.axml" />
+    <AndroidResource Include="Resources\layout\game_selection.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -50,13 +50,13 @@ namespace Arcade13
             SetContentView(Resource.Layout.tictactoe_home);
             ImageButton backButton = FindViewById<ImageButton>(Resource.Id.backarrow); 
             backButton.Click += CallGameSelectionPage;
-            Button playButton = FindViewById<Button>(Resource.Id.playbutton); 
+            Button playButton = FindViewById<Button>(Resource.Id.PlayButton); 
             playButton.Click += CallTTTGamePage;
         }
         public void InitializeTTTGamePage()
         {
             SetContentView(Resource.Layout.tictactoe_game);
-            Button backButton = FindViewById<Button>(Resource.Id.backarrow); 
+            ImageButton backButton = FindViewById<ImageButton>(Resource.Id.backarrow); 
             backButton.Click += CallTTTHomePage;
         }
 #endregion
