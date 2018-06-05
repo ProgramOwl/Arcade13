@@ -224,7 +224,7 @@
         android:autoSizeTextType="uniform"
         android:autoSizeMaxTextSize="28dp"
         android:autoSizeMinTextSize="24dp"
-        android:onClick="BackToHomePage()"
+        android:onClick="RegisterButton_Click"
         android:textSize="26dp"
         android:textStyle="bold"
         android:typeface="sans" />

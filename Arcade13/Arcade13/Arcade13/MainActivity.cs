@@ -35,6 +35,9 @@ namespace Arcade13
             SetContentView(Resource.Layout.register);
             ImageButton backTohome = FindViewById<ImageButton>(Resource.Id.backarrow);
             backTohome.Click += CallHomePage;
+
+            Button createaccount = FindViewById<Button>(Resource.Id.createaccount);
+            createaccount.Click += RegisterButton_Click;
         }
         public void InitializeGameSelectionPage()
         {
@@ -83,6 +86,18 @@ namespace Arcade13
             InitializeTTTGamePage();
         }
         #endregion
+
+        public void RegisterButton_Click(object sender, EventArgs e)
+        {
+            bool registerSuccess = false;
+            //Register code
+            registerSuccess = true;
+            if (registerSuccess)
+            {
+                InitializeHomePage();
+            }
+            
+        }
 
         public void MakeText(string text)
         {
