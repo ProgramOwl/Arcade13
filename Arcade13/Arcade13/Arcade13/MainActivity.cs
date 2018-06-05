@@ -39,22 +39,25 @@ namespace Arcade13
         public void InitializeGameSelectionPage()
         {
             SetContentView(Resource.Layout.game_selection);
-            //Button gameSelected = FindViewById<Button>(Resource.Id.gameSelected);
-            //gameSelected.Click += CallTTTHomePage;
+            Button gameSelected = FindViewById<Button>(Resource.Id.gameSelected);
+            gameSelected.Click += CallTTTHomePage;
+            ImageButton backTohome = FindViewById<ImageButton>(Resource.Id.backarrow);
+            backTohome.Click += CallHomePage;
+
         }
         public void InitializeTTTHomePage()
         {
             SetContentView(Resource.Layout.tictactoe_home);
-            //Button backButton = FindViewById<Button>)(Resource.Id.backButton); 
-            //backButton.Click += CallGameSelectionPage;
-            //Button playButton = FindViewById<Button>)(Resource.Id.playButton); 
-            //playButton.Click += CallTTTGamePage;
+            ImageButton backButton = FindViewById<ImageButton>(Resource.Id.backarrow); 
+            backButton.Click += CallGameSelectionPage;
+            Button playButton = FindViewById<Button>(Resource.Id.playbutton); 
+            playButton.Click += CallTTTGamePage;
         }
         public void InitializeTTTGamePage()
         {
             SetContentView(Resource.Layout.tictactoe_game);
-            //Button backButton = FindViewById<Button>)(Resource.Id.backButton); 
-            //backButton.Click += CallTTTHomePage;
+            Button backButton = FindViewById<Button>(Resource.Id.backarrow); 
+            backButton.Click += CallTTTHomePage;
         }
 #endregion
         

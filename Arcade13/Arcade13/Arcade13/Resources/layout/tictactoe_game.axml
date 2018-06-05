@@ -1,64 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px"
     android:background="@color/colorBlue"
+    android:clickable="true"
     android:id="@+id/Show">
-    <GridLayout
-        android:layout_x="50dp"
-        android:layout_y="150dp"
-        android:layout_width="250dp"
-        android:layout_height="150dp"
-        android:id="@+id/gridLayout1"
-        android:rowCount="3"
-        android:columnCount="3">
-        <Button
-            android:text="Button"
-            android:id="@+id/A1"
-            android:background="#600" />
-        <Button
-            android:text="Button"
-            android:id="@+id/A2"
-            android:background="#B00" />
-        <Button
-            android:text="Button"
-            android:id="@+id/A3"
-            android:background="#F00" />
-        <Button
-            android:text="Button"
-            android:id="@+id/B1"
-            android:background="#060" />
-        <Button
-            android:text="Button"
-            android:id="@+id/B2"
-            android:background="#0B0" />
-        <Button
-            android:text="Button"
-            android:id="@+id/B3"
-            android:background="#0F0" />
-        <Button
-            android:text="Button"
-            android:id="@+id/C1"
-            android:background="#006" />
-        <Button
-            android:text="Button"
-            android:id="@+id/C2"
-            android:background="#00B" />
-        <Button
-            android:text="Button"
-            android:id="@+id/C3"
-            android:background="#00F" />
-    </GridLayout>
-    <AbsoluteLayout
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logoshape"
+        android:minHeight="70dp"
+        android:padding="3dp"
+        android:visibility="visible">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/backarrow"
+            android:minWidth="60dp"
+            android:maxWidth="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/BackArrow"
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:longClickable="true" />
+        <TextView
+            android:text="@string/app_name"
+            android:textColor="@color/colorOrange"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="140dp"
+            android:id="@+id/titlex"
+            android:textAllCaps="true"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeMinTextSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_alignLeft="@+id/titlex"
+            android:id="@+id/headermid"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible"
+            android:gravity="right|center_horizontal">
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:id="@+id/imageView1"
+                android:minWidth="60dp"
+                android:src="@drawable/Arc13Logo"
+                android:scaleType="fitXY"
+                android:layout_marginRight="5dp"
+                android:clickable="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="250px"
-        android:layout_x="0dp"
-        android:layout_y="750dp"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:id="@+id/Tell" />
-</AbsoluteLayout>
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:layoutDirection="ltr">
+            <GridLayout
+                android:layout_x="50dp"
+                android:layout_y="150dp"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:id="@+id/gridLayout1"
+                android:rowCount="3"
+                android:columnCount="3">
+                <Button
+                    android:text="Button"
+                    android:id="@+id/A1"
+                    android:background="#600" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/A2"
+                    android:background="#B00" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/A3"
+                    android:background="#F00" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/B1"
+                    android:background="#060" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/B2"
+                    android:background="#0B0" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/B3"
+                    android:background="#0F0" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/C1"
+                    android:background="#006" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/C2"
+                    android:background="#00B" />
+                <Button
+                    android:text="Button"
+                    android:id="@+id/C3"
+                    android:background="#00F" />
+            </GridLayout>
+            <AbsoluteLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="250px"
+                android:layout_x="0dp"
+                android:layout_y="750dp"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/Tell" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

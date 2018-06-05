@@ -6,5 +6,102 @@
     android:layout_height="match_parent"
     android:background="@color/colorBlue"
     android:clickable="true">
-    
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logoshape"
+        android:minHeight="70dp"
+        android:padding="3dp"
+        android:visibility="visible">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/backarrow"
+            android:minWidth="60dp"
+            android:maxWidth="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/BackArrow"
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:longClickable="true" />
+        <TextView
+            android:text="@string/app_name"
+            android:textColor="@color/colorOrange"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="140dp"
+            android:id="@+id/titlex"
+            android:textAllCaps="true"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeMinTextSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_alignLeft="@+id/titlex"
+            android:id="@+id/headermid"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible"
+            android:gravity="right|center_horizontal">
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:id="@+id/imageView1"
+                android:minWidth="60dp"
+                android:src="@drawable/Arc13Logo"
+                android:scaleType="fitXY"
+                android:layout_marginRight="5dp"
+                android:clickable="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:layoutDirection="ltr" />
+    </LinearLayout>
+    <Button
+        android:text="Play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlayButton"
+        android:clickable="true"
+        android:textColor="#ffffffff"
+        android:shadowColor="#ff000000"
+        android:background="@drawable/shape"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:minHeight="70dp"
+        android:layout_alignParentEnd="false"
+        android:textIsSelectable="false"
+        android:capitalize="characters"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="28dp"
+        android:autoSizeMinTextSize="24dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
 </RelativeLayout>
