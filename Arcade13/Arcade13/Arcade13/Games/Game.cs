@@ -26,8 +26,8 @@ namespace Arcade13.Games
         public EndPlayerState EndState { get; private set; }
 
         private Player[] Players { get; set; }
-        private Board GameBoard;
-        private int TurnCounter = 0;
+        //private Board GameBoard;
+        //private int TurnCounter = 0;
 
         public Game()
         {

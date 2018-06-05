@@ -17,19 +17,19 @@ namespace Arcade13.Models
     //The game reads these through the board which holds these and the tokens
     class Cell
     {
-        bool Occupied;
-        public Token token;
+        //bool Occupied;
+        //public Token token;
 
-        public Cell()
-        {
-            token = null;
-            bool Occupied = false;
-        }
+        //public Cell()
+        //{
+        //    token = null;
+        //    bool Occupied = false;
+        //}
 
-        public Player OccupyingPlayer()
-        {
-            return token.Owner;
-        }
+        //public Player OccupyingPlayer()
+        //{
+        //    return token.Owner;
+        //}
 
     }
 }

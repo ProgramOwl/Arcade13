@@ -20,33 +20,33 @@ namespace Arcade13.Games.TicTacToe
     
     class TTTBoard : Board
     {
-        Cell[,] grid;
-        public TTTBoard(Token[] t)
-        {
-            grid = new Cell[3, 3];
-        }
+        //Cell[,] grid;
+        //public TTTBoard(Token[] t)
+        //{
+        //    grid = new Cell[3, 3];
+        //}
 
-        //Flush out
-        public override void ClearBoard()
-        {
-            throw new NotImplementedException();
-        }
+        ////Flush out
+        //public override void ClearBoard()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public void setCellOwner(Player p, int x, int y)
-        {
-            grid[x, y].token = getOwned(p);
-        }
+        //public void setCellOwner(Player p, int x, int y)
+        //{
+        //    grid[x, y].token = getOwned(p);
+        //}
 
-        private Token getOwned(Player p)
-        {
-            foreach(Token t in PlayerTokens)
-            {
-                if (t.Owner.Equals(p))
-                {
-                    return t;
-                }
-            }
-            return null;
-        }
+        //private Token getOwned(Player p)
+        //{
+        //    foreach(Token t in PlayerTokens)
+        //    {
+        //        if (t.Owner.Equals(p))
+        //        {
+        //            return t;
+        //        }
+        //    }
+        //    return null;
+        //}
     }
 }

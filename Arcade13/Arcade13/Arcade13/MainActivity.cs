@@ -88,6 +88,7 @@ namespace Arcade13
 
         public void Connect(object sender, EventArgs e)
         {
+            bool signInSuccess = false;
             SqlConnection cnn = new SqlConnection("SERVER=den1.mssql3.gear.host;DATABASE=arcade13;UID=arcade13;PWD=Rx7dWupmQ~~6;");
             //SqlDataReader sdr;
             try
@@ -95,19 +96,24 @@ namespace Arcade13
                 cnn.Open();
                 SqlCommand cmd = new SqlCommand("insert into test_table (firstColumn, secondColumn) values (0, 1)"/*Insert query here*/, cnn);
 
-                MakeText($"{cmd.ExecuteNonQuery()}");
+                MakeText($"Oh,Okay");
 
                 //sdr = cmd.ExecuteReader();
                 //while(sdr.Read())
                 //{
 
                 //}
+                signInSuccess = true;
                 cmd.Dispose();
                 cnn.Close();
             }
             catch (Exception)
             {
                 Toast.MakeText(ApplicationContext, "Something went wrong", ToastLength.Long).Show();
+            }
+            if (signInSuccess)
+            {
+                InitializeTTTHomePage();
             }
         }
     }

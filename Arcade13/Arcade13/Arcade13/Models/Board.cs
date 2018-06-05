@@ -14,13 +14,13 @@ namespace Arcade13.Models
 {
     public abstract class Board
     {
-        public Token[,] PlayerTokens;
-        private int BOARD_SIZE;
+        //public Token[,] PlayerTokens;
+        //private int BOARD_SIZE = 0;
 
-        public Board()
-        {
-            PlayerTokens = new Token[BOARD_SIZE,BOARD_SIZE];
-        }
-        public abstract void ClearBoard();
+        //public Board()
+        //{
+        //    PlayerTokens = new Token[BOARD_SIZE,BOARD_SIZE];
+        //}
+        //public abstract void ClearBoard();
     }
 }
