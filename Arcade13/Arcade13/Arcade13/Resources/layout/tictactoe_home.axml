@@ -79,7 +79,24 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_centerVertical="true"
-            android:layoutDirection="ltr" />
+            android:layoutDirection="ltr">
+            <TextView
+                android:text="Tic Tac Toe"
+                android:textColor="#ffff2020"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="140dp"
+                android:id="@+id/titlet"
+                android:textAllCaps="true"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="40dp"
+                android:autoSizeMinTextSize="40dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:gravity="center" />
+        </LinearLayout>
     </LinearLayout>
     <Button
         android:text="Play"
