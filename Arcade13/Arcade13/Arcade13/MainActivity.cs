@@ -144,7 +144,7 @@ namespace Arcade13
             }
             if (signInSuccess)
             {
-                InitializeTTTHomePage();
+                InitializeGameSelectionPage();
             }
         }
     }
