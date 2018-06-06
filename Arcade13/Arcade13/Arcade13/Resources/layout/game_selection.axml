@@ -84,18 +84,61 @@
         android:layout_height="wrap_content"
         android:id="@+id/body"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
-        <LinearLayout
-            android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp">
+        <TextView
+            android:text="Select a game to play:"
+            android:textColor="@color/colorOrange"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/linearLayout1"
-            android:visibility="visible"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:minWidth="140dp"
+            android:id="@+id/textviewx"
+            android:textAllCaps="true"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeMinTextSize="20dp"
             android:layout_centerVertical="true"
-            android:layoutDirection="ltr" />
+            android:layout_centerHorizontal="true"
+            android:gravity="left" />
+        <ListView
+            android:layout_below="@+id/textviewx"
+            android:minWidth="50dp"
+            android:minHeight="150dp"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/mainlistview"
+            android:background="#ffffb300"
+            android:scrollbarAlwaysDrawVerticalTrack="true" />
+        <TextView
+            android:text="Game 1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="140dp"
+            android:id="@+id/textitem1"
+            android:textAllCaps="true"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeMinTextSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="left" />
+        <TextView
+            android:text="Game 2"
+            android:layout_below="@+id/textitem1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="140dp"
+            android:id="@+id/textitem2"
+            android:textAllCaps="true"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="20dp"
+            android:autoSizeMinTextSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="left" />
     </LinearLayout>
     <Button
         android:text="Play Game"

@@ -47,6 +47,19 @@ namespace Arcade13
             ImageButton backTohome = FindViewById<ImageButton>(Resource.Id.backarrow);
             backTohome.Click += CallHomePage;
 
+            string[] items = new string[] {
+                "Tic Tac Toe",
+                "Game 2",
+                "Game 3"
+            };
+            ListView mainList;
+            mainList = (ListView)FindViewById<ListView>(Resource.Id.mainlistview);
+            mainList.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
+        
+            mainList.ItemClick += (s, e) => {
+                var t = items[e.Position];
+                Android.Widget.Toast.MakeText(this, t, Android.Widget.ToastLength.Long).Show();
+            };
         }
         public void InitializeTTTHomePage()
         {
